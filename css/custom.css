@@ -1,0 +1,27 @@
+/*body {
+    margin-left: 20%;
+    margin-right: 20%;
+}*/
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer {
+   background-color : #003;
+}
+
+.nav {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.item img {
+    margin: 0px auto;
+}
+.carousel {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}

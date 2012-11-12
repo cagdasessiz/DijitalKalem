@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Up and Running with Bootstrap</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+<!-- HTML5 shim for IE backwards compatibility -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<nav class="span12">
+			<ul class="breadcrumb">
+			  	<li><a href="http://www.lynda.com/" title="lynda.com">lynda.com </a><span class="divider icon-arrow-right"></span> </li>
+			  	<li><a href="http://www.lynda.com/home/authors.aspx" title="Authors">authors </a><span class="divider icon-arrow-right"></span> </li>
+			  	<li class="active">Jen Kramer </li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<nav class="pagination pagination-centered">
+  <ul>
+    <li class="disabled"><a href="#">&lt;&lt;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">&gt;&gt;</a></li>
+  </ul>
+</nav>
+
+<nav>
+<ul class="nav nav-pills">
+  <li><a href="#">Home</a> </li>
+  <li><a href="#">The Artists</a></li>
+  <li class="active"><a href="#">The Art</a></li>
+  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule<span class="caret"></span></a>
+  		<ul class="dropdown-menu">
+	        <li><a href="#">Day One</a></li>
+	        <li><a href="#">Day Two</a></li>
+	        <li><a href="#">Day Three</a></li>
+     </ul>
+  </li>
+  <li><a href="#">Venue</a></li>
+  <li><a href="#">Hotels</a></li>
+</ul>
+</nav>
+
+
+
+ 
+<nav class="navbar navbar-inverse">
+	<div class="navbar-inner">
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		<a class="brand" href="#">Roux Academy Conference</a>
+		<div class="nav-collapse">
+		    <ul class="nav">
+		      <li class="active"><a href="#">Anasayfa</a> </li>
+		      <li><a href="#">Ajans Dijital Kalem</a></li>
+		      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >Hizmetlerimiz<span class="caret"></span></a>
+		      	<ul class="dropdown-menu">
+		      			<li><a href="#">Basin ve Sosyal</a></li>
+            			<li><a href="#">Medya iletisimi</a></li>
+           				<li><a href="#">Yayincilik Faaliyetleri</a></li>
+		      	</ul>
+		      </li>
+		      <li><a href="#">Referanslarimiz</a></li>
+		      <li><a href="#">Iletisim</a></li>
+		    </ul>
+	    </div>
+    </div>
+</nav>
+
+
+<ul class="nav nav-tabs">
+      <li class="active"><a href="#rewington" data-toggle="tab">Riley Rewington</a></li>
+      <li><a href="#smith"  data-toggle="tab">Constance Smith</a></li>
+      <li><a href="#ta"  data-toggle="tab">Xhou Ta</a></li>
+    </ul>
+    
+  <section class="tab-content">
+  	<article class="tab-pane active" id="rewington">
+		    <h3>Riley Rewington</h3>
+		    <p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the &quot;Art of Abstract&quot; during Thursday's schedule.</p>
+    </article>
+    <article class="tab-pane" id="smith">
+		    <h3>Constance Smith</h3>
+		    <p>Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life, with jewel-adorned branches depicting the arms of humanity, and precious gemstone-decorated leaves representing the spouting buds of togetherness. The daughter of a New York jeweler, Constance has been salvaging the discarded remnants of her father’s jewelry-making since she was five years old, and won the New York State Fair grand prize at the age of 8 years old for a gem-adorned painting of the Manhattan Bridge.</p>
+		    </article>
+    <article class="tab-pane" id="ta">
+		    <h3>Xhou Ta</h3>
+		    <p>A senior at the China International Art University, Xhou has become well-known for his miniature sculptures, often the size of a rice granule, that are displayed by rear projection of microscope images on canvas. Xhou will discuss the art and science behind his incredibly detailed works of art.</p>
+		    </article>
+</section>
+<div class="carousel slide" id="artists">
+	<div class="carousel-inner">
+			<div class="item active">
+		  		<img src="img/larue.jpg" alt="LaVonne LaRue. ">
+		  		<div class="carousel-caption">
+			        <h4>LaVonne LaRue</h4>
+			        <p>LaVonne's giant-sized paintings all around Chicago tell the story of love, nature, and conservation. </p>
+				</div>
+	      	</div>
+	      	
+	      <div class="item">
+		      <img src="img/smith.jpg" alt="Constance Smith.">
+		      <div class="carousel-caption">
+			        <h4>Constance Smith</h4>
+			        <p>Constance received the Fullerton-Brighton-Norwell Award for Modern Art for her mixed-media image of a tree of life. </p>
+		        </div>
+	     </div>
+	     
+	     <div class="item">
+		      <img src="img/ta.jpg" alt="Xhou Ta.">
+		      <div class="carousel-caption">
+			        <h4>Xhou Ta</h4>
+			        <p>A senior at the China International Art University, Xhou has become well-known for his miniature sculptures.</p>
+		        </div>
+		</div>
+	</div>
+	
+  	<a href="#artists" class="left carousel-control" data-slide="prev">&lsaquo;</a> 
+  	<a href="#artists" class="right carousel-control" data-slide="next">&rsaquo;</a> 
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
