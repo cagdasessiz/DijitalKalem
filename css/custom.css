@@ -1,12 +1,11 @@
 /*body {
-    margin-left: 20%;
-    margin-right: 20%;
+    background:  #45aeea;
 }*/
-
 .container {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 footer {
    background-color : #003;
 }
@@ -20,8 +19,32 @@ footer {
     margin: 0px auto;
 }
 .carousel {
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
 }
+.centered-content{ 
+    text-align:center !important;
+    }
+    
+.anaparagraf
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.quote
+{
+    font-size: 1.5em;
+/*    color: #45aeea;*/
+    font-style: italic;
+}
+
+.hero-unit {
+    background-color:rgba(47,164,231,0.5);
+}
+
+/*.carousel-caption {
+    background:  #45aeea;
+}*/
+
